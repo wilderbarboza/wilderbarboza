@@ -1,0 +1,150 @@
+body{
+    background-color: #ddd;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #ddd;
+    height: 120px;
+}
+header h1{
+    margin-bottom: 0px;
+}
+input:focus{
+    outline: none;
+}
+select:focus{
+    outline: none;
+}
+header h2{
+    margin-top: 10px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #ddd;
+    min-height: 70ch;
+    padding: 15px;
+}
+.dados_auto{
+    height: auto;
+    display: flex;
+    justify-content:space-between;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+.dados_auto legend, .dados_posto legend {
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.campo_auto, .campo_posto{
+    width: 300px;
+    height: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #39aae1;
+    margin-left: 50px;
+    background-color: #ddd;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.dados_posto{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.campo_posto{
+    margin-bottom: 25px;
+}
+.dados_posto select{
+    margin-left: 50px;
+    width: 300px;
+    height: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #39aae1;
+    background-color: #ddd;
+    text-align: center;
+    margin-top: 5px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.button input{
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+#limpa{
+    background-color: yellow;
+    box-shadow: orange 2px 2px 2px;
+
+    border: none;
+}
+#envia{
+    background-color: palegreen;
+    border: none;
+    box-shadow: green 2px 2px 2px;
+}
+#limpa:active{
+    background-color: orange;
+    box-shadow: yellow 2px 2px 2px;
+}
+#envia:active{
+    background-color: green;
+    box-shadow: palegreen 2px 2px 2px;
+}
+footer{
+    width: calc(100%-20px);
+    height: 20px;
+    padding-left: 20px;
+    background-color: #999;
+    color:black;
+    margin-bottom: 0;
+}
+@media(max-width:600px){
+
+header{
+    margin-bottom: 30px;
+}
+.dados_auto, .dados_posto{
+    width: 80%;
+}
+.campo_auto, .campo_posto{
+    margin-left: 0%;
+    width: 100%;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dados_posto select{
+    margin-left: 0%;
+    width: 100%;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+}
+.button input{
+    margin: 0;
+}
+#limpa, #envia{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+}

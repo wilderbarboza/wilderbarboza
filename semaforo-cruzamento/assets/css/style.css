@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    height: 100vh;
+    background-image: url('../image/fundo.jpg');
+    background-position: center;
+}
+.container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+footer{
+    text-align: center;
+    width: 100vw;
+    background-color: black;
+    color:aqua;
+    position: fixed;
+    bottom: 10px;
+}
+footer a{
+    color:aqua;
+    text-decoration: none;
+}
+.semaforo{
+    width: 30px;
+}
+#frente{
+    margin-left: 200px;
+    position: absolute;
+    bottom: 80px;
+}
+#direita{
+    margin-left: 190px;
+    position: absolute;
+    bottom: 220px;
+}
+#fundo{
+    position: absolute;
+    bottom: 225px;
+}
+#esquerda{
+    position: absolute;
+    bottom: 120px;
+}
