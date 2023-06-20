@@ -15,3 +15,8 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: CODE and games
 
 # Languages and Tools:
+<picture>
+ <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+ <source media="(prefers-color-scheme: light)" srcset="[YOUR-LIGHTMODE-IMAGE](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)">
+ <img alt="HTML" src="[YOUR-DEFAULT-IMAGE](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)">
+</picture>
