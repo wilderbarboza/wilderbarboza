@@ -31,8 +31,8 @@ Here are some ideas to get you started:
  <img alt="JavaScript" src="">
 </picture>
 <picture>
- <source media="(prefers-color-scheme: dark)" srcset="	https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
- <source media="(prefers-color-scheme: light)" srcset="	https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
+ <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
+ <source media="(prefers-color-scheme: light)" srcset="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
  <img alt="Node.js" src="">
 </picture>
 <picture>
